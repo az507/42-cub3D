@@ -1,0 +1,18 @@
+EA ./textures/x512/cut_copper_512.xpm   
+SO ./textures/x512/cut_copper_512.xpm
+NO ./textures/x512/cut_copper_512.xpm    ./
+WE ./textures/x512/cut_copper_512.xpm
+
+F 32,238,0
+C 48,204,255
+
+1111111111
+1000000001
+1011100101
+1010000001
+1000  0001
+10000S0001
+1000110001
+1001100001
+1000000001
+1111111111

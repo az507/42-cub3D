@@ -1,0 +1,18 @@
+NO ./test_abc_dir/xpm_files/grey_wall.xpm
+SO ./test_abc_dir/xpm_files/grey_wall.xpm
+EA ./test_abc_dir/xpm_files/grey_wall.xpm   
+WE ./test_abc_dir/xpm_files/grey_wall.xpm
+
+C 208,245,255
+F 99,139,103
+
+1111111111
+1000000001
+1011100101
+1010     1
+1000  0001
+10000S0001
+1000110001
+1001100001
+1000000001
+1111111111

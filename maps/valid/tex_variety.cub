@@ -1,0 +1,18 @@
+NO ./test_abc_dir/xpm_files/dirt_block.xpm
+SO ./textures/x128/lodestone_128.xpm
+EA ./textures/x512/red_sandstone.xpm
+WE ./test_abc_dir/xpm_files/wall-design.xpm
+
+C 255,231,104
+F 201,104,20
+
+1111111111
+1000000001
+1011100101
+1010     1
+1000  0001
+10000S0001
+1000110001
+1001100001
+1000000001
+1111111111

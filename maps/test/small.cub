@@ -1,0 +1,12 @@
+NO /home/achak/Documents/graphics_test/xpm_files/brick_wall.xpm 
+WE /home/achak/Documents/graphics_test/xpm_files/4th_brick_wall.xpm 
+F 20,200,0
+C 225,30,100
+WE /home/achak/Documents/graphics_test/xpm_files/4th_brick_wall.xpm 
+EA /home/achak/Documents/graphics_test/xpm_files/wood.xpm 
+SO /home/achak/Documents/graphics_test/xpm_files/grey_wall.xpm 
+SO /home/achak/Documents/graphics_test/xpm_files/grey_wall.xpm 
+F 20,200,0
+111
+1N1
+111

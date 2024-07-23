@@ -1,0 +1,14 @@
+F           000,000,000
+NO /home/achak/Documents/graphics_test/xpm_files/brick_wall.xpm 
+SO /home/achak/Documents/graphics_test/xpm_files/grey_wall.xpm 
+C                0,100,p100
+EA /home/achak/Documents/graphics_test/xpm_files/wood.xpm 
+NO                     /home/achak/Documents/graphics_test/xpm_files/wood.xpm 
+WE /home/achak/Documents/graphics_test/xpm_files/4th_brick_wall.xpm 1111111111                       
+
+11111                                      111                                                                              11111
+                      10001
+                      11111
+111111                                     111
+101101                                     1N01
+11111                                      11111

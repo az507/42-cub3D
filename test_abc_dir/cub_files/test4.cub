@@ -1,0 +1,28 @@
+EA ./test_abc_dir/xpm_files/4th_brick_wall.xpm
+SO ./test_abc_dir/xpm_files/4th_brick_wall.xpm
+NO ./test_abc_dir/xpm_files/4th_brick_wall.xpm
+WE ./test_abc_dir/xpm_files/4th_brick_wall.xpm
+
+F 255,255,0
+C 255,0,255
+      
+        111 111 111
+        1 1 1 1 1 1
+        1 1 1 1 1 1
+ 11111111 111 111 11111
+        1          1
+ 11111111           1
+        1             1
+ 1111111             1 1
+        1           1  E1
+ 1111111             111
+        1    1         1
+  111111
+1       1         111
+    11111  
+         1        11 1 11 11
+11
+1
+1111
+1111111 
+

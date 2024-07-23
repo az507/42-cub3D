@@ -1,0 +1,18 @@
+EA ./test_abc_dir/xpm_files/wall-design.xpm
+SO ./test_abc_dir/xpm_files/wall-design.xpm
+NO ./test_abc_dir/xpm_files/wall-design.xpm
+WE ./test_abc_dir/xpm_files/wall-design.xpm
+
+F 255,220,225
+C 48,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,255
+
+
+
+
+
+1
+11
+1E1
+1111
+
+

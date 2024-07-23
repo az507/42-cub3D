@@ -1,0 +1,13 @@
+EA ./test_abc_dir/xpm_files/pngegg_compressed.xpm
+SO ./test_abc_dir/xpm_files/pngegg_compressed.xpm
+NO ./test_abc_dir/xpm_files/wood.xpm
+WE ./test_abc_dir/xpm_files/wood.xpm
+
+F 255,255,255
+C 255,255,255
+
+11111
+11 11
+1 E 1
+11 11
+11111
