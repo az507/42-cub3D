@@ -6,7 +6,7 @@
 #    By: achak <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/12 18:33:45 by achak             #+#    #+#              #
-#    Updated: 2024/07/09 17:01:41 by achak            ###   ########.fr        #
+#    Updated: 2024/08/09 18:43:38 by achak            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,10 +27,12 @@ OBJS		= $(patsubst $(SRC)/%.c,$(OBJ)/%.o,$(SRCS))
 CC		= cc
 CFLAGS		= -Wall -Werror -Wextra
 INCLD		= includes
-LFLAGS		= -L$(INCLD)/mlx_linux -Lincludes/libft \
+LFLAGS		= -L$(INCLD)/mlx_linux -L$(INCLD)/libft \
 		  -I$(INCLD) -lm -lmlx -lXext -lX11 -lft
 LIBFT		= $(INCLD)/libft/libft.a
 LIBFT_PATH	= $(INCLD)/libft
+MLX		= $(INCLD)/mlx_linux/libmlx.a
+MLX_PATH	= $(INCLD)/mlx_linux
 RM		= rm
 
 all:	$(NAME)
@@ -44,7 +46,7 @@ asan:	$(NAME)
 #efence:	fclean
 #efence:	$(NAME)
 
-$(NAME):$(OBJ) $(OBJS) $(LIBFT)
+$(NAME):$(OBJ) $(OBJS) $(LIBFT) $(MLX)
 	$(CC) $(CFLAGS) $(FSAN) $(OBJS) $(LFLAGS) -o $(NAME)
 
 $(OBJ):
@@ -53,11 +55,15 @@ $(OBJ):
 $(LIBFT):
 	$(MAKE) -C $(LIBFT_PATH)
 
+$(MLX):
+	$(MAKE) -C $(MLX_PATH)
+
 $(OBJ)/%.o:$(SRC)/%.c
 	$(CC) -c $(CFLAGS) -I$(INCLD) -I$(INCLD)/mlx_linux -I$(LIBFT_PATH) $^ -o $@
 
 clean:
 	$(MAKE) -C $(LIBFT_PATH) clean
+	$(MAKE) -C $(MLX_PATH) clean
 	$(RM) -rf $(OBJ)
 	#$(RM) $(OBJS)
 
